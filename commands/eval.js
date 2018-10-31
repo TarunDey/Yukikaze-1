@@ -1,5 +1,6 @@
 const { Command } = require('discord-akairo');
 const Discord = require("discord.js");
+const os = require("os");
 const ownerID = '456092386343387146'
 
 class EvalCommand extends Command {
