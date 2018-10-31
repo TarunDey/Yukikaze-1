@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const os = require("os");
 const { AkairoClient } = require('discord-akairo');
 
 const client = new AkairoClient({
