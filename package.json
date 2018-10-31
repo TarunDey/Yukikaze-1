@@ -12,6 +12,7 @@
     "node-fetch": "^2.2.0",
     "querystring": "^0.2.0",
     "simple-youtube-api": "^5.0.2",
+    "turndown": "^5.0.1",
     "ytdl-core": "^0.24.0"
   },
   "devDependencies": {},
