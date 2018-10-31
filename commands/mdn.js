@@ -44,7 +44,7 @@ class MDNCommand extends Command {
 			filter: 'a',
 			replacement: (text, node) => `[${text}](https://developer.mozilla.org${node.href})`
 		});
-		const embed = new Discord.RichEmbed
+		const embed = new Discord.RichEmbed()
 			.setColor(0x066FAD)
 			.setAuthor('MDN', 'https://i.imgur.com/DFGXabG.png', 'https://developer.mozilla.org/')
 			.setURL(`https://developer.mozilla.org${body.URL}`)
