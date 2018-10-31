@@ -25,7 +25,7 @@ class HelpCommand extends Command {
    .setThumbnail(this.client.user.displayAvatarURL)
    
 
-    .addField(`Docs`, `docs <query>: shows you discord.js docs whatever you are looking for!\nnpm<package>: shows the searched information about a npm package.`)
+    .addField(`Docs`, `docs <query>: shows you discord.js docs whatever you are looking for!\nnpm<package>: shows the searched information about a npm package.\nmdn:shows the main documentation of JavaScript.`)
     .addField(`Other`, `stats: shows Yukikaze\'s status.\nprefix: shows Yukikaze\'s available prefixes.\ninvite: Gives you the link to invite Yukikaze in your guild!`)
     .setFooter(`IshmaamKhan#3454`)
 
