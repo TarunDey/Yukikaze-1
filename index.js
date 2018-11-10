@@ -3,7 +3,7 @@ const { AkairoClient } = require('discord-akairo');
 
 const client = new AkairoClient({
     ownerID: '456092386343387146',
-    prefix: ['?', 'd?'],
+    prefix: ['?', 'd?', 'yuki,', 'yukikaze,'],
     commandDirectory: './commands/',
     listenerDirectory: './listeners/',
     allowMention: true
