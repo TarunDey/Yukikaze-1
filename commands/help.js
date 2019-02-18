@@ -16,7 +16,7 @@ class HelpCommand extends Command {
  const embed = new Discord.RichEmbed()
 
 
-    .setTitle(`Yukikaze Help`)
+    .setTitle(`Yuti Help`)
 
 
     .setColor(3447003)
@@ -26,8 +26,8 @@ class HelpCommand extends Command {
    
 
     .addField(`Docs`, `docs <query>: shows you discord.js docs whatever you are looking for!\nnpm <package>: shows the searched information about a npm package.\nmdn <query>: shows the main documentation of JavaScript.`)
-    .addField(`Other`, `stats: shows Yukikaze\'s status.\nprefix: shows Yukikaze\'s available prefixes.\ninvite: Gives you the link to invite Yukikaze in your guild!`)
-    .setFooter(`IshmaamKhan#3454`)
+    .addField(`Other`, `stats: shows Yuti\'s status.\nprefix: shows Yuti\'s available prefixes.\ninvite: Gives you the link to invite Yuti in your guild!`)
+    .setFooter(`Fire#5858`)
 
 message.channel.send({ embed: embed });
 
