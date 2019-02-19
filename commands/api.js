@@ -4,7 +4,7 @@ const { Command } = require('discord-akairo');
 
 class APICommand extends Command {
     constructor() {
-        super('tag api', {
+        super('api', {
             aliases: ['tag api'],
             category: 'Other'
         });
