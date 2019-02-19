@@ -3,8 +3,8 @@ const Discord = require("discord.js");
 
 class AkairoCommand extends Command {
     constructor() {
-        super('akairo', {
-            aliases: ['akairo'],
+        super('tag akairo', {
+            aliases: ['tag akairo'],
             category: 'commands'
         });
     }
