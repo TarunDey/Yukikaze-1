@@ -1,6 +1,7 @@
 const { Command } = require('discord-akairo');
 const Discord = require("discord.js");
 
+
 class AkairoCommand extends Command {
     constructor() {
         super('tag akairo', {
